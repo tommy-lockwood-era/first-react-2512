@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import MyPascalCaseComponent from './MyPascalCaseComponent.tsx';
+import Card from './Card.tsx';
 
 // const myCamelCaseVariable = 42;
 // const my_snake_case_variable = 42;
@@ -11,6 +12,7 @@ import MyPascalCaseComponent from './MyPascalCaseComponent.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <Card />
     <MyPascalCaseComponent />
     <App />
   </StrictMode>,
