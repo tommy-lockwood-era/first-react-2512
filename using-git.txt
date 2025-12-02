@@ -1,0 +1,5 @@
+Making changes to a repository
+1. Save normally.
+2. Stage which files you want to include in the commit.
+3. Add a practical and succinct commit message.
+4. Click to commit.
